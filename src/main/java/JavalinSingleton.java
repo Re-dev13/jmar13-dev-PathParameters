@@ -21,7 +21,7 @@ public class JavalinSingleton {
             String firstName = ctx.pathParam("first");
             ctx.result(firstName);
         });
-
+        
         return app;
     }
     
